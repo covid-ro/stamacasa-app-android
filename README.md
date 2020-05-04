@@ -22,5 +22,8 @@ aplicatiei demo.
 #### [1.0.0] - 2020-04-30
 Versiunea initiala a aplicatiei pentru Android.
 
+#### [1.0.1] - 2020-05-04
+Actualizare grafica pentru a elimina eroare OOM pe anumite dispozitive.
+
 ### TODO
 - [ ] Obtinere lista intrebari pentru chestionarul de evaluare de pe server
