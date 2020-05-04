@@ -16,6 +16,8 @@ aplicatiei demo.
 
 ## 2. Screenshots
 
+Disponibile in directorul [/doc](https://github.com/covid-ro/stamacasa-app-android/tree/master/doc).
+
 
 ## 3. Modificari; versiuni; TODO
 
@@ -23,7 +25,7 @@ aplicatiei demo.
 Versiunea initiala a aplicatiei pentru Android.
 
 #### [1.0.1] - 2020-05-04
-Actualizare grafica pentru a elimina eroare OOM pe anumite dispozitive.
+Actualizare grafica pentru a elimina eroare OOM pe anumite dispozitive. Adaugate screenshots.
 
 ### TODO
 - [ ] Obtinere lista intrebari pentru chestionarul de evaluare de pe server
