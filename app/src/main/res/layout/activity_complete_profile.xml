@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        tools:context=".ui.intro.WelcomeScreenActivity">
+
+        <TextView
+            android:id="@+id/completeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/comlete_profile"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/largeHeaderText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/extraInfoTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:lineSpacingExtra="@dimen/lineSpacing"
+            android:text="@string/info_complete_profile"
+            android:textColor="@color/bodyTextColor"
+            android:textSize="@dimen/bodyText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/completeTv">
+
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/continueBt"
+            style="@style/MainButton"
+            android:text="@string/continue_button"
+            android:layout_marginTop="@dimen/continueButtonMarginTop"
+            app:layout_constraintTop_toBottomOf="@+id/addExtraProfileBt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <ro.gov.stamacasa.customviews.forms.elements.ButtonWalkthrough
+            android:id="@+id/profileBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:labelIcon="@drawable/ic_check_circle_outline_24px"
+            app:labelText="Profilul Tau"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/extraInfoTv" />
+
+        <ro.gov.stamacasa.customviews.forms.elements.ButtonWalkthrough
+            android:id="@+id/addExtraProfileBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:labelIcon="@drawable/ic_check_circle_outline_24px_white"
+            app:labelText="Adauga alte persoane in contul tau"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profileBt" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

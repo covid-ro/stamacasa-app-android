@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonWalkthrough">
+        <attr name="labelText" format="string" />
+        <attr name="labelIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AnswerInputCv">
+        <attr name="label" format="string"/>
+        <attr name="android:inputType" format="integer"/>
+    </declare-styleable>
+
+</resources>

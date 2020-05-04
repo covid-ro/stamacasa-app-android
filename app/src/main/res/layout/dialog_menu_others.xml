@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        style="@style/BodyText"
+        android:id="@+id/detailsTv"
+        android:text="@string/details_menu"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGrey" />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        style="@style/BodyText"
+        android:id="@+id/evaluationTv"
+        android:text="@string/add_evaluation_menu"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="60dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGrey"
+        />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        style="@style/BodyText"
+        android:id="@+id/exitsTv"
+        android:text="@string/add_exit_menu"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="60dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGrey"
+         />
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        style="@style/BodyText"
+        android:id="@+id/historyTv"
+        android:text="@string/history_menu"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="60dp"/>
+
+</LinearLayout>

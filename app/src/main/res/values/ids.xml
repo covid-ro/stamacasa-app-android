@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="radioGroupFollowUp" type="id"/>
+    <item name="continueBtId" type="id"/>
+</resources>

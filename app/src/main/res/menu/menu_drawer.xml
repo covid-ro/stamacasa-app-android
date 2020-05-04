@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nMenuPrincipal"
+            android:title="Ecran Principal" />
+
+        <item
+            android:id="@+id/nMenuProfil"
+            android:title="Profilul Meu" />
+        <item
+            android:id="@+id/nMenuProfile"
+            android:title="Profile alte persoane" />
+
+        <item
+            android:id="@+id/nMenuIstoric"
+            android:title="Istoric personal" />
+
+        <item
+            android:id="@+id/nSetari"
+            android:title="Setari" />
+
+        <item
+            android:id="@+id/nDespre"
+            android:title="Despre" />
+    </group>
+
+</menu>

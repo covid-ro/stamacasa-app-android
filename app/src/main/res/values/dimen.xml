@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="largeHeaderText">18sp</dimen>
+    <dimen name="bodyText">12sp</dimen>
+    <dimen name="lineSpacing">6dp</dimen>
+    <dimen name="mainButtonHeight">50dp</dimen>
+    <dimen name="answerButtonHeight">40dp</dimen>
+    <dimen name="personalProfileSectionSeparatorDistance">24dp</dimen>
+    <dimen name="answerExtraMarginTop">10dp</dimen>
+    <dimen name="answerMarginTop">16dp</dimen>
+    <dimen name="iconSize">16dp</dimen>
+    <dimen name="questionPaddingTop">24dp</dimen>
+    <dimen name="continueButtonMarginTop">36dp</dimen>
+    <dimen name="followUpQuestionMarginStart">16dp</dimen>
+    <dimen name="followUpQuestionMarginTop">8dp</dimen>
+
+</resources>

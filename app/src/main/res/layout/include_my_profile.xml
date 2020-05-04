@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrey">
+
+    <ro.gov.stamacasa.customviews.personalprofile.PersonalProfileCv
+        android:id="@+id/personalData"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent" />
+
+    <!--    <ro.gov.stamacasa.customviews.personaldata.PersonalDataCv-->
+    <!--        android:id="@+id/personalData"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"/>-->
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--        style="@style/MainButton"-->
+    <!--        android:id="@+id/editBt"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/personalData"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        android:text="@string/edit"-->
+    <!--        android:layout_marginTop="@dimen/continueButtonMarginTop"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+    <!--    </androidx.appcompat.widget.AppCompatButton>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

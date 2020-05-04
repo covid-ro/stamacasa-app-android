@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/personalProfileSectionSeparatorDistance"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/sectionLayout"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/sectionTitle"
+            style="@style/LargeHeaderText"
+            tools:text = "Date personale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="@dimen/personalProfileSectionSeparatorDistance"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGraySeparator"/>
+
+</LinearLayout>

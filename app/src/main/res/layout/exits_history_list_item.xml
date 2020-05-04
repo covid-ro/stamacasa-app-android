@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/bulletPointV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:background="@drawable/circle_shape"/>
+
+    <TextView
+        style="@style/BodyText"
+        android:id="@+id/dateTv"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="12dp"
+        app:layout_constraintStart_toEndOf="@id/bulletPointV"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="14.03.2020" />
+
+    <TextView
+        style="@style/BodyText"
+        android:id="@+id/startTimeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toStartOf="@id/separator"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="13.00" />
+
+    <TextView
+        android:id="@+id/separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toStartOf="@id/endTimeTv"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text=" - " />
+
+    <TextView
+        style="@style/BodyText"
+        android:id="@+id/endTimeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="13:30" />
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/motivTv"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:paddingTop="4dp"-->
+    <!--        android:text="@string/motive"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/timeTv"/>-->
+
+    <TextView
+        style="@style/BodyText"
+        android:id="@+id/motiv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingTop="2dp"
+        app:layout_constraintStart_toEndOf="@id/bulletPointV"
+        app:layout_constraintTop_toBottomOf="@id/dateTv"
+        tools:text="Mega Image " />
+
+    <TextView
+        style="@style/BodyText"
+        android:id="@+id/contactTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:text="@string/contact"
+        android:paddingLeft="12dp"
+        app:layout_constraintStart_toEndOf="@id/bulletPointV"
+        app:layout_constraintTop_toBottomOf="@id/motiv" />
+
+    <TextView
+        style="@style/BodyText"
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="2dp"
+        app:layout_constraintStart_toEndOf="@id/contactTv"
+        app:layout_constraintTop_toBottomOf="@id/motiv"
+        tools:text="DA" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/lightGrey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

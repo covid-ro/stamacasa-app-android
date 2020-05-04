@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        tools:context=".ui.intro.WelcomeScreenActivity">
+
+        <TextView
+            android:id="@+id/welcomeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/largeHeaderText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/shortIntroTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:lineSpacingExtra="@dimen/lineSpacing"
+            android:textColor="@color/bodyTextColor"
+            android:text="@string/short_intro"
+            android:textSize="@dimen/bodyText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/welcomeTv">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/howItWorksTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="@dimen/lineSpacing"
+            android:text="@string/how_it_works"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/bodyText"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/shortIntroTv"/>
+
+
+        <TextView
+            android:id="@+id/extraInfoTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/bodyTextColor"
+            android:lineSpacingExtra="@dimen/lineSpacing"
+            android:text="@string/info_welcome_screen"
+            android:textSize="@dimen/bodyText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/howItWorksTv" />
+
+
+        <ro.gov.stamacasa.customviews.forms.elements.ButtonWalkthrough
+            android:id="@+id/profileBt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:labelIcon="@drawable/ic_check_circle_outline_24px_white"
+            app:labelText="Profilul Tau"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/extraInfoTv"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

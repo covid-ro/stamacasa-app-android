@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3D2B51</color>
+    <color name="colorPrimaryDark">#AC7BB5</color>
+    <color name="colorAccent">#FDB048</color>
+
+    <color name="colorGraySeparator">#BEBEBDBD</color>
+    <color name="transparentGray">#4ABEBDBD</color>
+    <color name="backgroundColor">#F6F5F6</color>
+
+<!--    WelcomeScreenButton -->
+    <color name="backgroundBtProgressUnselected">#EFE8F0</color>
+    <color name="backgroundIconBtProgressUnselected">#E8DDEA</color>
+    <color name="backgroundBtProgressSelected">#E7DCE9</color>
+    <color name="backgroundIconProgressSelected">#E8DDEA</color>
+
+<!--    MainButton-->
+    <color name="colorButtonMain">#FDB048</color>
+    <color name="bodyTextColor">#262526</color>
+    <color name="progressTabUnselected">#B7B7B7</color>
+
+    <color name="errorColor">#FF6565</color>
+    <color name="white">#ffffff</color>
+    <color name="lightGrey">#F4F3F3</color>
+
+</resources>

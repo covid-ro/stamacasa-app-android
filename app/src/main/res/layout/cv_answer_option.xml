@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/answerCl"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:paddingTop="@dimen/answerMarginTop">
+
+    <LinearLayout
+        android:id="@+id/extraQuestionsL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/answerTv"
+        app:layout_constraintTop_toBottomOf="@id/answerTv">
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/answerExtraInfoL"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/answerButtonHeight"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginTop="@dimen/answerExtraMarginTop"-->
+<!--            android:layout_marginEnd="4dp"-->
+<!--            android:layout_marginRight="4dp"-->
+<!--            android:background="@drawable/rounded_corners_answer_not_selected"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/hintTv"-->
+<!--                style="@style/Hint"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_marginLeft="16dp"-->
+<!--                tools:text="Din ce data ai avut febra?" />-->
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/answerTv"
+        style="@style/AnswerTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/rounded_corners_answer_not_selected"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Febra 38 de grade sau mai mare?" />
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/hintIv"-->
+    <!--            android:layout_width="@dimen/iconSize"-->
+    <!--            android:layout_height="@dimen/iconSize"-->
+    <!--            android:layout_gravity="end"-->
+    <!--            android:layout_marginRight="16dp"-->
+    <!--            tools:src="@drawable/ic_calendar_today_24px"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

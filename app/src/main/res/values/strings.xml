@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">StamAcasa</string>
+
+    <!--WelcomeScreenActivity-->
+    <string name="welcome">Bine ai venit</string>
+    <string name="short_intro">Aplicatia Stam Acasa te va ajuta sa iti monitorizezi starea de sanatate pentru tine si pentru cei dragi care nu au acces la tehnologie sau nu sunt atat de prietenosi cu ea.</string>
+    <string name="how_it_works">Cum functioneaza</string>
+    <string name="info_welcome_screen">
+        Folosind cele trei optiuni de mai jos vei putea sa iti
+        construiesti un profil pentru tine, respectiv membrii
+        familiei tale sau alte persoane pe care le ai in grija,
+        cu ajutorul unui set initial de intrebari.
+
+        \n\n
+
+        In fiecare zi vei primi notificare sa completezi un chestionar
+        de evaluare menit sa te ajute sa monitorizezi riscul unei potentiale
+        infectii. Vei putea de asemenea sa mentii un istoric al tuturor
+        iesirilor din domiciliu ale tale sau ale membrilor familiei.
+    </string>
+
+
+    <!--    CompleteProfileActivity-->
+    <string name="comlete_profile">Profil complet</string>
+    <string name="info_complete_profile">
+       Iti multumim ca ai finalizat completarea profilului tau. Foloseste optiunile de mai jos pentru a adauga alte persoane pe care le ai in grijain aplicatie. Va trebui sa completezi si pentru ele profiluri similare.
+
+        \n\nChiar daca nu locuiesti cu aceste persoane, dar tii legatura recurent cu ele, le poti ajuta monitorizandu-le sanatatea telefonic si marcand raspunsurile in aplicatie.
+
+        \n\nDupa ce finalizezi si acest pas vei putea sa completezi primul formular de evaluare al simptomelor si al activitatii tale, ceea ce va declansa mecanismul de notificariautomate pentru a-ti aminti sa completezi zilnic informatii in profil.
+
+        \n\nDaca nu ai alte persoane in grija, poti intra in aplicatie. Poti oricand
+        sa adaugi persoane noi in aplicatie.
+    </string>
+
+<!--    MainActivity-->
+    <string name="continue_button">Continua</string>
+    <string name="your_profile">Profilul tau</string>
+    <string name="create_profile_intro">Intrebarile de mai jos sunt relevante pentru a putea stabili daca ai afectiuni care pot creste gradul de risc de imbolnavire. Sunt informatii foarte importante care pot influenta evaluarea recurenta din fiecare zi de utilizare a aplicatiei si sfaturile pe care ti le putem da depind de sinceritatea cu care raspunzi la ele.</string>
+    <string name="form">Formular de evaluare</string>
+    <string name="form_intro">Intrebarile de mai jos sunt relevante pentru a putea stabili daca ai afectiuni care pot creste gradul de risc de imbolnavire. Sunt informatii foarte importante care pot influenta evaluarea recurenta din fiecare zi de utilizare a aplicatiei si sfaturile pe care ti le putem da depind de sinceritatea cu care raspunzi la ele.</string>
+    <string name="other_profile">Adauga un profil nou</string>
+    <string name="add_profile">Adauga un profil</string>
+    <string name="symptoms_history">Istoric simptome</string>
+    <string name="exits_history">Istoric iesiri</string>
+    <string name="motive">Motiv :</string>
+    <string name="contact">Contact :</string>
+    <string name="details_menu">Detalii profil</string>
+    <string name="add_evaluation_menu">Adaugare informatii evaluare</string>
+    <string name="add_exit_menu">Adaugare informatii deplasari</string>
+    <string name="history_menu">Istoric raportari</string>
+
+    <!--    Personal data-->
+    <string name="name">Nume si prenume</string>
+    <string name="phone">Numar telefon</string>
+    <string name="county">Judet</string>
+    <string name="city">Localitate</string>
+    <string name="age">Varsta in ani impliniti</string>
+    <string name="gender">Gen</string>
+    <string name="question_error">Va rugam completati intrebarile obligatorii</string>
+    <string name="error_name">"Va rugam introduceti un nume corect"</string>
+    <string name="error_gender">"Va rugam introduceti genul dumneavoastra"</string>
+    <string name="error_age">"Va rugam introduceti varsta corecta"</string>
+    <string name="error_city">"Va rugam introduceti localitatea corecta"</string>
+    <string name="error_county">"Va rugam introduceti judetul corect"</string>
+    <string name="error_phone">"Va rugam introduceti numarul de telefon corect"</string>
+    <string name="error_location">Va rugam alegeti judetul mai intai.</string>
+    <string name="female">Feminin</string>
+    <string name="male">Masculin</string>
+    <string name="county_first">Va rugam alegeti judetul mai intai.</string>
+
+    <string-array name="gender" translatable="false">
+        <item>@string/gender</item>
+        <item>@string/female</item>
+        <item>@string/male</item>
+    </string-array>
+
+    <!-- About -->
+    <string name="about_version">Versiunea 1.0</string>
+    <string name="about_site"><u>http://www.gov.ro</u></string>
+    <string name="about_components">Folosim urmatoarele biblioteci si componente : AndroidX, Gson, Room</string>
+
+    <!-- MainActivity-->
+    <string name="complete_form_bt">Completeaza formular</string>
+    <string name="see_history">Vezi istoric complet</string>
+    <string name="add_exit">Adauga iesire</string>
+
+    <!--ProfileActivity-->
+    <string name="edit">Editeaza</string>
+    <string name="save">Salveaza</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Reminder completare formular</string>
+    <string name="notification_text">Va rugam completati formularul periodic</string>
+
+    <!-- Settings -->
+    <string name="settings_activate_20">Activeaza alarma pentru ora 20 </string>
+    <string name="main_info_text">Urmatorul formular te ajuta sa mentii un istoric al simptomelor sau al absentei acestora in perioada in care stai in izolare. Parcurge intrebarile si raspunde cu atentie. Pe masura ce completezi, aceasta pagina se va popula cu istoricul raspunsurilor tale.</string>
+
+    <!-- New Exit -->
+    <string name="exit_h1">Formular deplasari</string>
+    <string name="exit_h2">Intrebarile de mai jos sunt relevante pentru a putea stabili daca ai afectiuni care pot creste gradul de risc de imbolnavire. Sunt informatii foarte importante care pot influenta evaluarea recurenta din fiecare zi de utilizare a aplicatiei si sfaturile pe care ti le putem da depind de sinceritatea cu care raspunzi la ele.</string>
+    <string name="exit_tag1">Daca ai iesit de la ultima completare a formularului, salveaza cateva detalii despre deplasare.</string>
+    <string name="exit_tag2">Ai fost in contact direct cu o persoana diagnosticata / confirmata cu noul coronavirus? </string>
+    <string name="exit_title">Motivul deplasarii (ex: cumparaturi)</string>
+    <string name="exit_start_hour">Ora plecarii:</string>
+    <string name="exit_end_hour">Ora intoarcerii:</string>
+    <string name="exit_title_error">Va rugam completati motivul deplasarii</string>
+    <string name="exit_start_hour_error">Va rugam completati ora de inceput deplasarii</string>
+    <string name="exit_end_hour_error">Va rugam completati ora de sfarsit deplasarii</string>
+    <string name="exit_was_in_danger">Va rugam sa alegeti unul din cele 2 raspunsuri</string>
+    <string name="exit_saved">Datele au fost salvate</string>
+
+    <!-- Splash -->
+    <string name="version_ok">Aplicatia ruleaza ultima versiune disponibila</string>
+    <string name="version_not_ok">Va rugam sa realizati actualizarea aplicatiei</string>
+    <string name="version_not_sure">Nu s-a putut verifica versiunea aplicatiei</string>
+    <string name="no_data">Nu exista date disponibile</string>
+    <string name="last_form_tv">Ultimul formular:</string>
+    <string name="yes">DA</string>
+    <string name="no">NU</string>
+
+<!--    Notification-->
+    <string name="evaluation_notification_title">Raspuns evaluare</string>
+
+<!--    Alerts-->
+    <string name="no_connectivity_evaluation">Pentru a primi rezultatul evaluarii, este necesara conectarea la internet. Odata ce va veti conecta la internet veti primi o notificare cu rezultatele dumneavoastra.</string>
+    <string name="alert_form_title">Raspuns evaluare</string>
+    <string name="server_overload">Deoarece serverul este suprasolicitat, va vom trimite o notificare cu rezultatele evualuarii de indata ce sunt gata.</string>
+
+</resources>
